@@ -1,0 +1,18 @@
+
+  JBoss Portal 2.7.0
+  LGPL Licensed (See http://www.gnu.org/copyleft/lesser.html for details on the product usage)
+  
+  JBoss Portal is the next generation open source content management system (CMS) and portal
+  framework from JBoss. It is entirely standards-based and supports the JSR-168 Portlet specification,
+  which allows you to easily plug-in standards-compliant modules to meet your specific Portal needs.
+  JBoss Portal is available through the business-friendly LGPL open source license and is supported
+  by JBoss Inc. Professional Support and Consulting are available to assist you in designing, developing,
+  deploying, and ultimately managing your Portal environment.
+  
+  
+  INSTALLATION:
+  For installation, please refer to the reference guide available in the 'docs' directory
+  
+  RUNNING:
+  To run the application, start JBoss AS and point your web browser to:
+  http://localhost:8080/portal/index.html
