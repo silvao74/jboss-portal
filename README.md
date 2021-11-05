@@ -15,3 +15,7 @@ docker run --name tc-ci -p 8080:8080 -v /docker-volumes/K8s/jboss-portal/deploy:
 ## Volume
 
 Include the artifact to be deployed to the volume mapped to the /opt/jboss/server/default/deploy folder. Example: war, ear, config xml files etc
+
+## JBoss-Portal
+
+The structure of JBoss-Portal-2.7.2 is in the src folder
