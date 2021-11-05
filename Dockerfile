@@ -1,5 +1,4 @@
-# Use latest jboss/base-jdk:11 image as the base
-#FROM jboss/base-jdk:8
+# Use alpine image as the base
 FROM alpine:3.14
 LABEL org.opencontainers.image.authors="marcioos@ciandt.com"
 
