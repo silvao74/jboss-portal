@@ -12,6 +12,6 @@ docker run -it silvao74/jboss-portal
 
 docker run --name tc-ci -p 8080:8080 -v /docker-volumes/K8s/jboss-portal/deploy:/opt/jboss/server/default/deploy silvao74/jboss-portal
 
-## Github
+## Volume
 
-- [Fonte](https://github.com/silvao74/jboss-portal): versão 1.0
+Include the artifact to be deployed to the volume mapped to the /opt/jboss/server/default/deploy folder. Example: war, ear, config xml files etc
