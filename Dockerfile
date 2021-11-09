@@ -8,6 +8,7 @@ USER root
 # Create a group and user, and JBoss directory
 RUN apk add openjdk8=8.282.08-r1 \
   && apk add --no-cache bash \
+  && apk add --no-cache curl \
   && addgroup -S jboss && adduser -S jboss -G jboss \
   && mkdir /opt/jboss \
   && chmod 755 /opt/jboss
